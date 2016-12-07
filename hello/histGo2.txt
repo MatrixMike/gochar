@@ -1,0 +1,1000 @@
+ 1006  make clean
+ 1007  ls -lctr
+ 1008  make all
+ 1009  ls -lctr
+ 1010  git status
+ 1011  make all
+ 1012  make clean
+ 1013  make all
+ 1014  ls -lctr
+ 1015  ./newprog 
+ 1016  nm newprog 
+ 1017  ls -lctr
+ 1018  curl --version
+ 1019  curl
+ 1020  sudo apt-get install curl
+ 1021  curl
+ 1022  curl --help
+ 1023  curl --manual
+ 1024  curl --manual | more
+ 1025  curl --help
+ 1026  curl https://electroteach.com
+ 1027  ls -lc
+ 1028  cd ~/cppP29/
+ 1029  ls -lctr
+ 1030  gitk
+ 1031  indent *.c -linux
+ 1032  ls -lctr
+ 1033  git status
+ 1034  cat file1.c
+ 1035  cat file2.c
+ 1036  cat file3.c
+ 1037  ls -lctr
+ 1038  cat filex.c
+ 1039  git status
+ 1040  git add *.c
+ 1041  git status
+ 1042  ls -lca
+ 1043  gedit .gitignore &
+ 1044  git status
+ 1045  ls -lcatr
+ 1046  make clean
+ 1047  ls -lcatr
+ 1048  ls -lctr
+ 1049  git status
+ 1050  git add .gitignore 
+ 1051  git commit
+ 1052  git status
+ 1053  git push
+ 1054  git status
+ 1055  git --version
+ 1056  gitk
+ 1057  ls -lctr
+ 1058  make all
+ 1059  ls -lctr
+ 1060  git status
+ 1061  git pull
+ 1062  cd ~/cppNoob/
+ 1063  git status
+ 1064  ls -lctr
+ 1065  history 
+ 1066  make 
+ 1067  cat Makefile
+ 1068  make all
+ 1069  ls -lctr
+ 1070  ./hello 
+ 1071  git status
+ 1072  ls -lctra
+ 1073  cat .gitignore 
+ 1074  git pull
+ 1075  cd ../cppP29/
+ 1076  cat .gitignore 
+ 1077  ls -lctra
+ 1078  indent file1.c -linux
+ 1079  ls -lctra
+ 1080  git status
+ 1081  make clean
+ 1082  git status
+ 1083  ls -lctra
+ 1084  ./newprog 
+ 1085  make all
+ 1086  cd ~/
+ 1087  ls -lc
+ 1088  more < sldemo_sfun_ndarray_add.c 
+ 1089  ls sldemo_sfun_ndarray_add
+ 1090  ls sldemo_sfun_ndarray_add.* -lc
+ 1091  gcc sldemo_sfun_ndarray_add.c
+ 1092  df -h
+ 1093  lsb_release -a
+ 1094  uname -a
+ 1095  i2cdetect -y 0 
+ 1096  sudo apt-get install i2c-tools
+ 1097  i2cdetect -y 0 
+ 1098  sudo i2cdetect -y 0 
+ 1099  sudo i2cdetect -y 1
+ 1100  i2cdetect -y 2
+ 1101  sudo i2cdetect -y 2
+ 1102  i2cdetect --help
+ 1103  i2cdetect -l
+ 1104  sudo i2cdetect -y -a 2
+ 1105  man i2cdetect 
+ 1106  sudo i2cdetect -y  2
+ 1107  cd ~/
+ 1108  git clone https://github.com/MatrixMike/i2c.git
+ 1109  cd i2c/
+ 1110  ls -lctr
+ 1111  lsb_release -a
+ 1112  uname -a
+ 1113  uname -a > host1.txt
+ 1114  lsb_release -a >> host1.txt 
+ 1115  lsb_release -a 
+ 1116  cat host1.txt 
+ 1117  sudo i2cdetect -y  2
+ 1118  sudo i2cdetect -y  2 >> host1.txt 
+ 1119  cat host1.txt 
+ 1120  sudo i2cdetect -l
+ 1121  sudo i2cdetect -l >> host1.txt 
+ 1122  cat host1.txt 
+ 1123  git status
+ 1124  git add host1.txt 
+ 1125  git commit 
+ 1126  git status
+ 1127  git var -l
+ 1128  git push
+ 1129  ls -lctr
+ 1130  geany nunchuk.c &
+ 1131  ls -lctr
+ 1132  i2cdetect -y 0 
+ 1133  sudo i2cdetect -y 0 
+ 1134  sudo i2cdetect -l
+ 1135  git var -l
+ 1136  cd i2c/
+ 1137  ls -lctr
+ 1138  git pull
+ 1139  ls -lctr
+ 1140  cat README.txt 
+ 1141  cat README.md 
+ 1142  ls -lctr
+ 1143  git var -l
+ 1144  git pull
+ 1145  git var -l
+ 1146  ls -lctr
+ 1147  cat host3.txt 
+ 1148  cat host2.txt 
+ 1149  cat host1.txt 
+ 1150  sudo i2cdetect -l
+ 1151  lsb_release -a
+ 1152  uname -a
+ 1153  ls /dev/i2c-0 -lc
+ 1154  lsmod 
+ 1155  lsmod --help
+ 1156  lsmod --version
+ 1157  man lsmod
+ 1158  ls /proc/modules 
+ 1159  ls /proc/modules  -lc
+ 1160  cat /proc/modules 
+ 1161  git pull
+ 1162  ls -lctr
+ 1163  git pull
+ 1164  cd ~/Linux-tricks-and-tips/
+ 1165  git pull
+ 1166  ls -lctr
+ 1167  cat tips1.txt 
+ 1168  cd ~/javaLowLevel/
+ 1169  ls -lctr
+ 1170  ifconfig 
+ 1171  nm-online 
+ 1172  ifconfig 
+ 1173  nm-tool 
+ 1174  nm
+ 1175  nm-connection-editor 
+ 1176  ifconfig 
+ 1177  nm-online 
+ 1178  ifconfig 
+ 1179  dmesg 
+ 1180  ifconfig 
+ 1181  sudo nm-connection-editor &
+ 1182  cd ~/
+ 1183  ls -lc
+ 1184  cd jvmHackNight/
+ 1185  ls -lc
+ 1186  gedit WiFi.txt &
+ 1187  ifconfig 
+ 1188  ifconfig 
+ 1189  nm-tool 
+ 1190  sudo nm-connection-editor &
+ 1191  nm-connection-editor 
+ 1192  cd ~/
+ 1193  git clone https://github.com/csete/gqrx.git gqrx.git
+ 1194  cd gqrx.git/
+ 1195  ls -lctr
+ 1196  mkdir build
+ 1197  cd build
+ 1198  qmake
+ 1199  cd ..
+ 1200  qmake
+ 1201  ls -lctr
+ 1202  qmake
+ 1203  cat README.md 
+ 1204  ls -lctr
+ 1205  ls cmake/
+ 1206  cd ~/Linux-tricks-and-tips/
+ 1207  git pull
+ 1208  cal
+ 1209  ls -lctr
+ 1210  gedit tips1.txt &
+ 1211  git status
+ 1212  cd ~/
+ 1213  git clone https://github.com/csete/gpredict.git
+ 1214  cd gpredict/
+ 1215  ls -lctr
+ 1216  ./autogen.sh 
+ 1217  cat README 
+ 1218  cat autogen.sh 
+ 1219  sudo apt-get install glib-gettextizelibtoolize intltoolize aclocal autoheader autoconf automake
+ 1220  sudo apt-get install glib-gettextize libtoolize intltoolize aclocal autoheader autoconf automake
+ 1221  sudo apt-get install autoconf glib-gettextize libtool intltool aclocal autoheader automake libglib2.0-dev indent libgoocanvas-dev libcurl4-gnutls-dev 
+ 1222  sudo apt-get install autoconf libtool intltool  automake libglib2.0-dev indent libgoocanvas-dev libcurl4-gnutls-dev 
+ 1223  history 
+ 1224  cat README 
+ 1225  ./autogen.sh 
+ 1226  make
+ 1227  cat README 
+ 1228  sudo make install
+ 1229  gpredict 
+ 1230  gpredict &
+ 1231  ls -lc
+ 1232  ls -lctr
+ 1233  git status
+ 1234  git add tips1.txt 
+ 1235  git commit 
+ 1236  git status
+ 1237  git push
+ 1238  cd ~/
+ 1239  gpredict &
+ 1240  cd gpredict 
+ 1241  ls -lctr
+ 1242  mkdir logMike
+ 1243  cd logMike/
+ 1244  gpredict > gplog.txt &
+ 1245  ls -lctr
+ 1246  gpredict 2> gplog.txt &
+ 1247  ls -lctr
+ 1248  more < gplog.txt 
+ 1249  ls -lctr
+ 1250  ls -lctrh
+ 1251  gedit Nov2016a.txt &
+ 1252  ls -lctr
+ 1253  cat BlinkBinary.ino 
+ 1254  indent BlinkBinary.ino -linux
+ 1255  ls -lctr
+ 1256  cat BlinkBinary.ino 
+ 1257  cat BlinkBinary.ino~
+ 1258  dmesg | egrep --color 'serial|ttyS'
+ 1259  setserial -g /dev/ttyS0
+ 1260  sudo apt-get install setserial
+ 1261  setserial -g /dev/ttyS0
+ 1262  cu
+ 1263  sudo apt-get install cu
+ 1264  cu
+ 1265  screen
+ 1266  sudo apt-get install screen
+ 1267  minicom
+ 1268  sudo apt-get install minicom
+ 1269  putty
+ 1270  tip
+ 1271  setserial -g /dev/ttyS[0123]
+ 1272  history 
+ 1273  history > ~/thisPC/historySerial.txt
+ 1274  cat ~/thisPC/historySerial.txt
+ 1275  cat /etc/inittab
+ 1276  getty 
+ 1277  history 
+ 1278  history > ~/thisPC/historySerial.txt
+ 1279  cd /etc/
+ 1280  ls
+ 1281  ls -a
+ 1282  ls  /etc/lsb-release.dpkg-dist 
+ 1283  ls  /etc/lsb-release.dpkg-dist   -lc
+ 1284  cat  /etc/lsb-release.dpkg-dist   
+ 1285  lsb_release -a
+ 1286  cd ~/Linux-tricks-and-tips/
+ 1287  gedit tips1.txt &
+ 1288  git status
+ 1289  git add tips1.txt 
+ 1290  git commit
+ 1291  git status
+ 1292  git push
+ 1293  gitk
+ 1294  cat ~/thisPC/historySerial.txt
+ 1295  sudo apt-get install minicom cu setserial screen 
+ 1296  # https://www.cyberciti.biz/hardware/5-linux-unix-commands-for-connecting-to-the-serial-console/
+ 1297  history 
+ 1298  history > ~/thisPC/historySerial.txt
+ 1299  cat ~/thisPC/historySerial.txt
+ 1300  apcalc
+ 1301  gnome-disks 
+ 1302  df -h
+ 1303  cd ~/Downloads/
+ 1304  ls -lctr
+ 1305  ls -lctrh
+ 1306  sensors
+ 1307  sensors
+ 1308  sensors-conf-convert 
+ 1309  sensors-conf-convert --help
+ 1310  cat /etc/sensors3.conf 
+ 1311  cat /etc/sensors.d/
+ 1312  ls /etc/sensors.d/
+ 1313  ls /etc/sensors.d/   -lc
+ 1314  cat /etc/sensors3.conf 
+ 1315  putty
+ 1316  ping 10.0.0.84
+ 1317  cd ~/javaLowLevel/
+ 1318  ls -lctr
+ 1319  geany Dates1.java &
+ 1320  git pull
+ 1321  git status
+ 1322  ls -lctr
+ 1323  git pull
+ 1324  ls -lctr
+ 1325  javac Dates1.java 
+ 1326  java Dates1 
+ 1327  cd ~/Linux-tricks-and-tips/
+ 1328  git pull
+ 1329  ls -lctr
+ 1330  git pull
+ 1331  cal
+ 1332  cal -help
+ 1333  sensors
+ 1334  git pull
+ 1335  cd ~/
+ 1336  git clone https://github.com/MatrixMike/RaspberryPi-C.git
+ 1337  cd RaspberryPi-C/
+ 1338  ls -lctr
+ 1339  cd hello_font/
+ 1340  ls -lctr
+ 1341  more < main.c 
+ 1342  ls -lctr
+ 1343  git status
+ 1344  rm main.c~
+ 1345  ls -lctr
+ 1346  git status
+ 1347  git add main.c 
+ 1348  cd ../libs/
+ 1349  ls -lctr
+ 1350  cd vgfont/
+ 1351  ls -lctr
+ 1352  ls -lctrmore < font.c 
+ 1353  more < font.c 
+ 1354  grep default font.c 
+ 1355  grep default_font font.c 
+ 1356  indent font.c -linux
+ 1357  ls -lctr
+ 1358  rm font.c~
+ 1359  ls -lctr
+ 1360  make
+ 1361  ls -lctr
+ 1362  git status
+ 1363  geany font.c &
+ 1364  cd ..
+ 1365  tree -d
+ 1366  cd hello_font/
+ 1367  ls ../libs/vgfont/graphics_x_private.h  -lc
+ 1368  git status
+ 1369  git add ../libs/vgfont/font.c 
+ 1370  git status
+ 1371  putty
+ 1372  git status
+ 1373  git commit 
+ 1374  git status
+ 1375  git push
+ 1376  putty
+ 1377  ls -lctr
+ 1378  awk --version
+ 1379  sed --version
+ 1380  sensors
+ 1381  apcalc
+ 1382  calc
+ 1383  sudo apt-get install apcalc
+ 1384  calc
+ 1385  clac
+ 1386  calc
+ 1387  history | grep scp
+ 1388  cd ~/aspergers
+ 1389  ping 10.0.0.87
+ 1390  ls -lctr
+ 1391  ls -lctrh
+ 1392  scp Certificate\ of\ participation\ MIKE.pptx mikeh@10.0.0.87/
+ 1393  scp Certificate\ of\ participation\ MIKE.pptx mikeh@10.0.0.87/aspergers
+ 1394  scp Certificate\ of\ participation\ MIKE.pptx mikeh@10.0.0.87/home/mikeh/aspergers/.
+ 1395  history | grep scp
+ 1396  scp Certificate\ of\ participation\ MIKE.pptx mikeh@10.0.0.87/home/mikeh/aspergers/cert.pptx
+ 1397  ls -lctr
+ 1398  scp  mikeh@10.0.0.87/home/mikeh/aspergers/
+ 1399  scp  azita1.txt mikeh@10.0.0.87/home/mikeh/aspergers/.
+ 1400  sudo scp  azita1.txt mikeh@10.0.0.87/home/mikeh/aspergers/.
+ 1401  sudo scp  azita1.txt mikeh@10.0.0.87/home/mikeh/aspergers/test1
+ 1402  ping 10.0.0.87
+ 1403  sudo scp  azita1.txt mikeh@10.0.0.87/home/mikeh/aspergers/.
+ 1404  pwd
+ 1405  ifconfig 
+ 1406  pwd
+ 1407  dmesg
+ 1408  gedit house4Aspies.txt &
+ 1409  history | grep scp
+ 1410  cd ~/thisPC/
+ 1411  history | grep scp
+ 1412  ls -lctr
+ 1413  grep scp history1.txt 
+ 1414  grep scp history2.txt 
+ 1415  grep scp history1.txt 
+ 1416  grep scp history3.txt 
+ 1417  more < history3.txt 
+ 1418  more < history4.txt 
+ 1419  ls -lctr
+ 1420  sudo shutdown -h now
+ 1421  cd ~/
+ 1422  git clone https://github.com/MatrixMike/RPiGlade1.git
+ 1423  cd RPiGlade1/
+ 1424  ls -lctr
+ 1425  anjuta
+ 1426  sudo apt-get install anjuta
+ 1427  anjuta
+ 1428  cd ~/
+ 1429  ls -lctr
+ 1430  cd gtk-foobarc++/
+ 1431  ls -lctr
+ 1432  cd src/
+ 1433  ls -lctr
+ 1434  anjuta &
+ 1435  glade
+ 1436  sudo apt-get install glade
+ 1437  glade  &
+ 1438  df -h
+ 1439  df 
+ 1440  df -h
+ 1441  autogen
+ 1442  sudo apt-get install autogen
+ 1443  glade
+ 1444  apt-get install libgtkmm-3.0-dev
+ 1445  sudo apt-get install libgtkmm-3.0-dev
+ 1446  history > ~/thisPC/history5.txt
+ 1447  cd ~/
+ 1448  ls -lctr
+ 1449  cd gtk-foobarc++/
+ 1450  ls -lctr
+ 1451  cd Debug/
+ 1452  ls -lctr
+ 1453  cd src/
+ 1454  ls -lctr
+ 1455  ./gtk_foobarc__ 
+ 1456  ls -lctr
+ 1457  ./gtk_foobarc__ 
+ 1458  cd ../..
+ 1459  ls -lctr
+ 1460  cd src/
+ 1461  ls -lctr
+ 1462  mv gtk_foobarc__.ui gtk_foobarc__.ui.org
+ 1463  ls -lctr
+ 1464  cd ../Debug/src/
+ 1465  ls -lctr
+ 1466  ./gtk_foobarc__ 
+ 1467  cd..
+ 1468  cd ..
+ 1469  ls -lctr
+ 1470  tree -d
+ 1471  cd ..
+ 1472  tree -d
+ 1473  ls src/
+ 1474  ls Debug/
+ 1475  ls Debug/src/
+ 1476  cd ~/
+ 1477  ls -lctr
+ 1478  cd foobar-cpp/
+ 1479  ls -lctr
+ 1480  cd Debug/
+ 1481  ls -lctr
+ 1482  ls src/
+ 1483  cd src/
+ 1484  ls -lctr
+ 1485  ./foobar_cpp 
+ 1486  df -h
+ 1487  dmesg 
+ 1488  usb-devices 
+ 1489  cd ~/aspergers
+ 1490  ls -lctr
+ 1491  gedit Dec2016a.txt &
+ 1492  ls -lctr
+ 1493  dmesg 
+ 1494  usb-devices 
+ 1495  cd ~/Linux-tricks-and-tips/
+ 1496  ls -lctr
+ 1497  git pull
+ 1498  cat tips1.txt 
+ 1499  grep usb tips1.txt 
+ 1500  grep lsb tips1.txt 
+ 1501  usbhid-dump 
+ 1502  sudo usbhid-dump 
+ 1503  usb-devices 
+ 1504  usb-devices | grep cp2
+ 1505  sensors
+ 1506  cd ~/
+ 1507  ls -lc
+ 1508  mkdir sensorsData
+ 1509  cd sensorsData/
+ 1510  sensors > sensors1.txt
+ 1511  ls -lc
+ 1512  cat sensors1.txt 
+ 1513  sensors 
+ 1514  sensors > sensors2.txt
+ 1515  watch -n 5 sensors
+ 1516  cd ~/
+ 1517  mkdir hardware
+ 1518  cd hardware/
+ 1519  mkdir esp8266com
+ 1520  cdc esp8266com/
+ 1521  cd esp8266com/
+ 1522  git clone https://github.com/esp8266/Arduino.git esp8266
+ 1523  ls -lc
+ 1524  cd esp8266/
+ 1525  ls -lc
+ 1526  cd tools/
+ 1527  ls -lc
+ 1528  tree
+ 1529  tree -d
+ 1530  cd ..
+ 1531  tree -d
+ 1532  ls -lc
+ 1533  more < README.md 
+ 1534  pwd
+ 1535  ps -ax
+ 1536  kill 6799
+ 1537  ps -ax
+ 1538  shutdown -h now
+ 1539  sudo shutdown -h now
+ 1540  cd ~/
+ 1541  ls -lc
+ 1542  mkdir doctor
+ 1543  cd doctor/
+ 1544  gedit tips1.txt &
+ 1545  sensors
+ 1546  ls -lc
+ 1547  cat tips1.txt 
+ 1548  sensors
+ 1549  history 
+ 1550  ps -ax
+ 1551  cd ~/
+ 1552  ls -lctr
+ 1553  ls RaspberryPi-C/
+ 1554  ls RaspberryPi-C/hello_font/
+ 1555  cd listserver/
+ 1556  ls -lctr
+ 1557  cat footerMike1.txt 
+ 1558  ls -lc
+ 1559  make
+ 1560  cat Makefile 
+ 1561  grep : Makefile 
+ 1562  make base
+ 1563  cat Makefile 
+ 1564  ls -lc
+ 1565  cat README.txt 
+ 1566  subversion chrpath fluid imagemagick
+ 1567  fluid imagemagick
+ 1568  imagemagick
+ 1569  df -h
+ 1570  history 
+ 1571  font2c ?
+ 1572  font2c --help
+ 1573  font2c Courier cour.c
+ 1574  ls -lctr
+ 1575  cd ~/RaspberryPi-C/hello_font/
+ 1576  ls -lctr
+ 1577  git status
+ 1578  git log
+ 1579  gitk
+ 1580  font2c Courier cour.c
+ 1581  fonttosfnt --help
+ 1582  man font2c 
+ 1583  man fontglide 
+ 1584  fontglide
+ 1585  whereis font2c
+ 1586  fonts-conf
+ 1587  whereis fonts-conf
+ 1588  man font2c 
+ 1589  cal
+ 1590  cal 2016
+ 1591  man cal
+ 1592  cal
+ 1593  cal -j
+ 1594  man cal
+ 1595  cal -e
+ 1596  man cal
+ 1597  cal -h
+ 1598  cal 
+ 1599  cal -h 2016
+ 1600  cal -h 2016 > cal2016.txt
+ 1601  more < cal2016.txt 
+ 1602  man cal
+ 1603  cal -m11
+ 1604  cal -m11p
+ 1605  man cal
+ 1606  cal -m11f
+ 1607  man cal
+ 1608  cal -3
+ 1609  cal -3 -h
+ 1610  man cal
+ 1611  cal  -h
+ 1612  cal  -h  2017
+ 1613  cal -3 -h
+ 1614  man cal
+ 1615  cal -o
+ 1616  man cal
+ 1617  cal -A11
+ 1618  dmesg 
+ 1619  history 
+ 1620  cd ~/esp8266com/
+ 1621  cd esp8266com/
+ 1622  cd ~/hardware/esp8266com/
+ 1623  ls -lc
+ 1624  cd esp8266/
+ 1625  ls -lc
+ 1626  git status
+ 1627  ls -lc
+ 1628  ls src/
+ 1629  ls src/ -lc
+ 1630  xtables-multi 
+ 1631  dmesg 
+ 1632  dmesg > ~/thisPC/dmesg6cp210x.txt
+ 1633  sensors
+ 1634  ls /dev/cu
+ 1635  cd ~/
+ 1636  ls -lc
+ 1637  cd ~/
+ 1638  ls -lc
+ 1639  cd arduino1613/
+ 1640  ls -lc
+ 1641  cd arduino-1.6.13/
+ 1642  ls -lc
+ 1643  ./arduino
+ 1644  ps -ax | grep disk
+ 1645  meld &
+ 1646  cd ~/Linux-tricks-and-tips/
+ 1647  ls -lctr
+ 1648  cat tips1.txt 
+ 1649  gedit tips1.txt &
+ 1650  cd ~/meldTest/
+ 1651  ls -lc
+ 1652  meld file1.txt file2.txt 
+ 1653  ls -lctr
+ 1654  go
+ 1655  sudo apt-get install gccgo-go
+ 1656  gccgo
+ 1657  gccgo  --version
+ 1658  cd ~/
+ 1659  mkdir goLang
+ 1660  cd goLang/
+ 1661  gedit test.go &
+ 1662  ls -lctr
+ 1663  gccgo test.go 
+ 1664  ls -lctr
+ 1665  ./a.out 
+ 1666  meld &
+ 1667  cd ~/goLang/
+ 1668  ls -lc
+ 1669  cat test.go 
+ 1670  go
+ 1671  export GOPATH=$HOME/work
+ 1672  go install github.com/user/hello
+ 1673  export GOROOT=$HOME/go
+ 1674  go install github.com/user/hello
+ 1675  export PATH=$PATH:$GOROOT/bin
+ 1676  go install github.com/user/hello
+ 1677  cat $HOME/.profile
+ 1678  ps -ax
+ 1679  ls -lc
+ 1680  gedit file1.txt &
+ 1681  ls -lc
+ 1682  scp
+ 1683  ls -lctr
+ 1684  meld
+ 1685  cd ~/
+ 1686  ls -lc
+ 1687  cd arduino1613/
+ 1688  ls -lc
+ 1689  ./arduino-1.6.13/
+ 1690  cd arduino-1.6.13/
+ 1691  ls -lc
+ 1692  ./arduino
+ 1693  tree
+ 1694  cd ../..
+ 1695  tree
+ 1696  cd ..
+ 1697  tree
+ 1698  cd ..
+ 1699  tree
+ 1700  ./bin/hello 
+ 1701  go
+ 1702  ls -lctr
+ 1703  tree
+ 1704  tree --help
+ 1705  tree -a
+ 1706  ls -lctr
+ 1707  ls bin/
+ 1708  ls bin/  -lc
+ 1709  ls src/github.com/matrixmike/hello/ -lc
+ 1710  ./bin/hello 
+ 1711  ./src/github.com/matrixmike/hello/hello 
+ 1712  rm ./bin/hello 
+ 1713  tree 
+ 1714  go help
+ 1715  go clean
+ 1716  tree 
+ 1717  tree
+ 1718  ls -lctr
+ 1719  cd ~/
+ 1720  gtkterm 
+ 1721  ls -lctr
+ 1722  df -h
+ 1723  ls -lc
+ 1724  cd arduino1613/
+ 1725  ls -lc
+ 1726  cd arduino-1.6.13/
+ 1727  ls -lc
+ 1728  ./install.sh 
+ 1729  cd ~/
+ 1730  ls -lctr
+ 1731  git clone https://github.com/ElectronicsClubAltona/CharacterAnalysis.git
+ 1732  cd CharacterAnalysis/
+ 1733  ls -lctr
+ 1734  git status
+ 1735  indent CharacterAnalysis.ino -linux
+ 1736  git status
+ 1737  ls -lctr
+ 1738  git add CharacterAnalysis.ino
+ 1739  git commit 
+ 1740  git status
+ 1741  git push https://github.com/ElectronicsClubAltona/CharacterAnalysis.git
+ 1742  go
+ 1743  export GOPATH=$HOME/gowork
+ 1744  go install github.com/user/hell
+ 1745  cd ~/
+ 1746  ls -lc
+ 1747  cd eca/
+ 1748  ls -lc
+ 1749  gedit blinky.txt &
+ 1750  cd /usr/local/
+ 1751  ls -lc
+ 1752  mkdir go
+ 1753  sudo mkdir go
+ 1754  ls -lc
+ 1755  ls -lctr
+ 1756  cd go
+ 1757  mv ~/Downloads/go1.7.4.linux-amd64.tar.gz .
+ 1758  sudo mv ~/Downloads/go1.7.4.linux-amd64.tar.gz .
+ 1759  ls -lc
+ 1760  history | grep file
+ 1761  file-roller --help
+ 1762  file-roller go1.7.4.linux-amd64.tar.gz -h
+ 1763  ls -lc
+ 1764  sudo file-roller go1.7.4.linux-amd64.tar.gz -h
+ 1765  ls -lc
+ 1766  ls go  -lc
+ 1767  pwd
+ 1768  ls  -lc
+ 1769  cd go/
+ 1770  ls  -lc
+ 1771  ls bin/ -lc
+ 1772  cd bin/
+ 1773  ls  -lc
+ 1774  ./go
+ 1775  ls -lc
+ 1776  cd..
+ 1777  ls -lc
+ 1778  cd ..
+ 1779  ls -lc
+ 1780  ls -lctr
+ 1781  cd bin/
+ 1782  ls -lctr
+ 1783  cd ../..
+ 1784  ls -lctr
+ 1785  cd go/
+ 1786  ls -lctr
+ 1787  cd bin/
+ 1788  ls -lctr
+ 1789  cd ~/gowork/bin/
+ 1790  ls -lctr
+ 1791  ./hello 
+ 1792  ls -lctr
+ 1793  ./hello 
+ 1794  ls -lctr
+ 1795  ./hello 
+ 1796  ls -lctr
+ 1797  ./hello 
+ 1798  tree
+ 1799  cd ..
+ 1800  tree
+ 1801  ls -lctr
+ 1802  rm a.out 
+ 1803  history | grep go
+ 1804  ls -lctr
+ 1805  cd src/
+ 1806  ls -lctr
+ 1807  cd ..
+ 1808  ls -lctr
+ 1809  cd src/
+ 1810  ls -lctr
+ 1811  cd github.com/
+ 1812  ls -lctr
+ 1813  cd matrixmike/
+ 1814  ls -lctr
+ 1815  cd hello/
+ 1816  ls -lctr
+ 1817  go env
+ 1818  history | grep GOR
+ 1819  export GOROOT=$HOME/go
+ 1820  export GOROOT=$HOME/gowork
+ 1821  go env
+ 1822  export GOROOT=$HOME/go
+ 1823  go env
+ 1824  export GOROOT=$HOME/gowork
+ 1825  go env
+ 1826  gofmt
+ 1827  sudo apt-get install golang-go
+ 1828  ls -lctr
+ 1829  gofmt 
+ 1830  ls -lctr
+ 1831  gofmt test.go 
+ 1832  ls -lctr
+ 1833  gofmt test.go 
+ 1834  ls -lctr
+ 1835  git status
+ 1836  go
+ 1837  ls -lctr
+ 1838  tree
+ 1839  cd ~/
+ 1840  ls -lc
+ 1841  mkdir gowork
+ 1842  go install github.com/user/hello
+ 1843  go
+ 1844  go install
+ 1845  pwd
+ 1846  cd gowork/
+ 1847  ls -lc
+ 1848  cd src/
+ 1849  ls -lc
+ 1850  cd github.com/
+ 1851  ls -lc
+ 1852  cd matrixmike/
+ 1853  ls -lc
+ 1854  cd hello/
+ 1855  ls -lc
+ 1856  go install
+ 1857  ls -lc
+ 1858  go install github.com/matrixmike/hello
+ 1859  export GOPATH=$HOME/gowork
+ 1860  go install github.com/matrixmike/hello
+ 1861  ls -lc
+ 1862  cd ..
+ 1863  ls -lc
+ 1864  cd ..
+ 1865  ls -lc
+ 1866  tree
+ 1867  cd ..
+ 1868  ls -lc
+ 1869  cd ..
+ 1870  ls -lc
+ 1871  cd bin/
+ 1872  ls -lc
+ 1873  ./hello 
+ 1874  cd ..
+ 1875  ls -lc
+ 1876  cd src/
+ 1877  ls -lc
+ 1878  cd github.com/
+ 1879  ls -lc
+ 1880  cd matrixmike/
+ 1881  ls -lc
+ 1882  cd hello/
+ 1883  ls -lc
+ 1884  geany test.go &
+ 1885  go install github.com/matrixmike/hello
+ 1886  ls -lctr
+ 1887  git init
+ 1888  git add hello.go
+ 1889  ls -lctr
+ 1890  cat test.go 
+ 1891  git add test.go 
+ 1892  git commit -m "initial commit"
+ 1893  git status
+ 1894  go install github.com/matrixmike/hello
+ 1895  go build github.com/matrixmike/stringutil
+ 1896  go build
+ 1897  ls -lctr
+ 1898  ./hello 
+ 1899  tree
+ 1900  go build
+ 1901  git status
+ 1902  git add test.go 
+ 1903  git commit
+ 1904  go build
+ 1905  tree
+ 1906  ./hello 
+ 1907  go build
+ 1908  ./hello 
+ 1909  go build
+ 1910  ./hello 
+ 1911  git status
+ 1912  git add test.go 
+ 1913  git commit 
+ 1914  tree
+ 1915  cd ..
+ 1916  tree
+ 1917  go build
+ 1918  cd hello/
+ 1919  go build
+ 1920  tree ..
+ 1921  ls -lctr
+ 1922  ./hello 
+ 1923  ls -lctrh
+ 1924  nm hello 
+ 1925  gitk
+ 1926  go env
+ 1927  go list
+ 1928  go run
+ 1929  ls -lctrh
+ 1930  go run test.go 
+ 1931  ls -lctrh
+ 1932  go version
+ 1933  go ver
+ 1934  go help
+ 1935  go gopath
+ 1936  go env
+ 1937  df -h
+ 1938  ls -lctrh
+ 1939  go env
+ 1940  go run test.go 
+ 1941  ls -lctrh
+ 1942  go build
+ 1943  ls -lctrh
+ 1944  ./hello 
+ 1945  go help
+ 1946  ls -lctrh
+ 1947  cat test.go 
+ 1948  go fmt test.go 
+ 1949  go env
+ 1950  go build
+ 1951  go clean
+ 1952  go build
+ 1953  ./hello 
+ 1954  cal
+ 1955  cal --version
+ 1956  cal -version
+ 1957  cal --help
+ 1958  man cal
+ 1959  go get golang.org/x/mobile/cmd/gomobile
+ 1960  gomobile init
+ 1961  go
+ 1962  go packages
+ 1963  go help packages
+ 1964  gomobile 
+ 1965  go env
+ 1966  history | grep go
+ 1967  export GOROOT=$HOME/go
+ 1968  gomobile 
+ 1969  export GOPATH=$HOME/gowork
+ 1970  gomobile 
+ 1971  export GOPATH
+ 1972  go env
+ 1973  export GOROOT=$HOME/go
+ 1974  export GOROOT=$HOME/gowork
+ 1975  go env
+ 1976  gomobile 
+ 1977  go get golang.org/x/mobile/cmd/gomobile
+ 1978  go ver
+ 1979  go version
+ 1980  go
+ 1981  go version
+ 1982  go help gopath
+ 1983  go ver
+ 1984  go version
+ 1985  go get -d golang.org/x/mobile/example/basic
+ 1986  cd /usr/local/go/
+ 1987  ls -lc
+ 1988  cd go/
+ 1989  ls -lc
+ 1990  cd bin/
+ 1991  ls -lc
+ 1992  ./gofmt 
+ 1993  go get golang.org/x/mobile/cmd/gomobile
+ 1994  go help gopath
+ 1995  export PATH
+ 1996  export $PATH
+ 1997  export PATH=$PATH:/usr/local/go/bin
+ 1998  export $PATH
+ 1999  ls -lc
+ 2000  ./godoc 
+ 2001  ./godoc -ex
+ 2002  go
+ 2003  go version
+ 2004  history | grep go
+ 2005  history > ~/gowork/src/github.com/matrixmike/hello/histGo2.txt 
