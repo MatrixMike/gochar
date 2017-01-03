@@ -3,8 +3,12 @@ package main
 import "fmt"
 
 func main() {
+		var a [3]string
+	a[0] = "Hello"
+	a[1] = "World"
+	a[2] = "third"
     fmt.Println("HELLO"[1])
         fmt.Println(string("HELLO"[1]))
-        fmt.Printf("%c", []rune("HELLO")[1])
-        fmt.Println(string([]rune(sArray[0])[0]))
+        fmt.Println("%c", []rune("HELLO")[1])
+        fmt.Println(string([]rune(a[0])[4]))
 }
