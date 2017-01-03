@@ -14,7 +14,7 @@ func main() {
 	
 	fmt.Println(strings.IndexAny("chicken", "aeiouy"))
 	fmt.Println(strings.IndexAny("crwth", "aeiouy"))
-	fmt.Println(strings.IndexAny(a[3], a[2])         )
+	fmt.Println(strings.IndexAny(a[3], a[2])     , "K"    )
 	fmt.Println(strings.IndexAny("capacitor", "condensor"))
 	fmt.Println(strings.IndexAny("apacitor", "ondensor"))
 }
