@@ -1,0 +1,133 @@
+ 1221  sudo apt-get install autoconf glib-gettextize libtool intltool aclocal autoheader automake libglib2.0-dev indent libgoocanvas-dev libcurl4-gnutls-dev 
+ 1222  sudo apt-get install autoconf libtool intltool  automake libglib2.0-dev indent libgoocanvas-dev libcurl4-gnutls-dev 
+ 1654  go
+ 1655  sudo apt-get install gccgo-go
+ 1656  gccgo
+ 1657  gccgo  --version
+ 1659  mkdir goLang
+ 1660  cd goLang/
+ 1661  gedit test.go &
+ 1663  gccgo test.go 
+ 1667  cd ~/goLang/
+ 1669  cat test.go 
+ 1670  go
+ 1672  go install github.com/user/hello
+ 1673  export GOROOT=$HOME/go
+ 1674  go install github.com/user/hello
+ 1676  go install github.com/user/hello
+ 1701  go
+ 1714  go help
+ 1715  go clean
+ 1742  go
+ 1743  export GOPATH=$HOME/gowork
+ 1744  go install github.com/user/hell
+ 1752  mkdir go
+ 1753  sudo mkdir go
+ 1756  cd go
+ 1757  mv ~/Downloads/go1.7.4.linux-amd64.tar.gz .
+ 1758  sudo mv ~/Downloads/go1.7.4.linux-amd64.tar.gz .
+ 1762  file-roller go1.7.4.linux-amd64.tar.gz -h
+ 1764  sudo file-roller go1.7.4.linux-amd64.tar.gz -h
+ 1766  ls go  -lc
+ 1769  cd go/
+ 1774  ./go
+ 1785  cd go/
+ 1789  cd ~/gowork/bin/
+ 1803  history | grep go
+ 1817  go env
+ 1819  export GOROOT=$HOME/go
+ 1820  export GOROOT=$HOME/gowork
+ 1821  go env
+ 1822  export GOROOT=$HOME/go
+ 1823  go env
+ 1824  export GOROOT=$HOME/gowork
+ 1825  go env
+ 1826  gofmt
+ 1827  sudo apt-get install golang-go
+ 1829  gofmt 
+ 1831  gofmt test.go 
+ 1833  gofmt test.go 
+ 1836  go
+ 1841  mkdir gowork
+ 1842  go install github.com/user/hello
+ 1843  go
+ 1844  go install
+ 1846  cd gowork/
+ 1856  go install
+ 1858  go install github.com/matrixmike/hello
+ 1859  export GOPATH=$HOME/gowork
+ 1860  go install github.com/matrixmike/hello
+ 1884  geany test.go &
+ 1885  go install github.com/matrixmike/hello
+ 1888  git add hello.go
+ 1890  cat test.go 
+ 1891  git add test.go 
+ 1894  go install github.com/matrixmike/hello
+ 1895  go build github.com/matrixmike/stringutil
+ 1896  go build
+ 1900  go build
+ 1902  git add test.go 
+ 1904  go build
+ 1907  go build
+ 1909  go build
+ 1912  git add test.go 
+ 1917  go build
+ 1919  go build
+ 1926  go env
+ 1927  go list
+ 1928  go run
+ 1930  go run test.go 
+ 1932  go version
+ 1933  go ver
+ 1934  go help
+ 1935  go gopath
+ 1936  go env
+ 1939  go env
+ 1940  go run test.go 
+ 1942  go build
+ 1945  go help
+ 1947  cat test.go 
+ 1948  go fmt test.go 
+ 1949  go env
+ 1950  go build
+ 1951  go clean
+ 1952  go build
+ 1959  go get golang.org/x/mobile/cmd/gomobile
+ 1960  gomobile init
+ 1961  go
+ 1962  go packages
+ 1963  go help packages
+ 1964  gomobile 
+ 1965  go env
+ 1966  history | grep go
+ 1967  export GOROOT=$HOME/go
+ 1968  gomobile 
+ 1969  export GOPATH=$HOME/gowork
+ 1970  gomobile 
+ 1972  go env
+ 1973  export GOROOT=$HOME/go
+ 1974  export GOROOT=$HOME/gowork
+ 1975  go env
+ 1976  gomobile 
+ 1977  go get golang.org/x/mobile/cmd/gomobile
+ 1978  go ver
+ 1979  go version
+ 1980  go
+ 1981  go version
+ 1982  go help gopath
+ 1983  go ver
+ 1984  go version
+ 1985  go get -d golang.org/x/mobile/example/basic
+ 1986  cd /usr/local/go/
+ 1988  cd go/
+ 1992  ./gofmt 
+ 1993  go get golang.org/x/mobile/cmd/gomobile
+ 1994  go help gopath
+ 1997  export PATH=$PATH:/usr/local/go/bin
+ 2002  cat test.go 
+ 2003  go version
+ 2004  go
+ 2006  go build
+ 2007  go env
+ 2008  history | grep go
+ 2009  history | grep go > histGo1.txt
