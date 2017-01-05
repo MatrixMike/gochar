@@ -1,0 +1,199 @@
+ In Go, a name is exported if it begins with a capital letter. For example, Pizza is an exported name, as is Pi, which is exported from the math package.
+
+pizza and pi do not start with a capital letter, so they are not exported.
+
+When importing a package, you can refer only to its exported names. Any "unexported" names are not accessible from outside the package.
+
+Run the code. Notice the error message.
+
+To fix the error, rename math.pi to math.Pi and try it again. 
+----
+
+Multiple results
+
+A function can return any number of results.
+
+The swap function returns two strings.
+----
+
+Named return values
+
+Go's return values may be named. If so, they are treated as variables defined at the top of the function.
+
+These names should be used to document the meaning of the return values.
+
+A return statement without arguments returns the named return values. This is known as a "naked" return.
+
+Naked return statements should be used only in short functions, as with the example shown here. They can harm readability in longer functions.
+
+----
+
+Variables
+
+The var statement declares a list of variables; as in function argument lists, the type is last.
+
+A var statement can be at package or function level. We see both in this example.
+----
+
+Short variable declarations
+
+Inside a function, the := short assignment statement can be used in place of a var declaration with implicit type.
+
+Outside a function, every statement begins with a keyword (var, func, and so on) and so the := construct is not available.
+----
+
+Constants
+
+Constants are declared like variables, but with the const keyword.
+
+Constants can be character, string, boolean, or numeric values.
+
+Constants cannot be declared using the := syntax.
+----
+
+For
+
+Go has only one looping construct, the for loop.
+
+The basic for loop has three components separated by semicolons:
+
+    the init statement: executed before the first iteration
+    the condition expression: evaluated before every iteration
+    the post statement: executed at the end of every iteration
+
+The init statement will often be a short variable declaration, and the variables declared there are visible only in the scope of the for statement.
+
+The loop will stop iterating once the boolean condition evaluates to false.
+
+Note: Unlike other languages like C, Java, or Javascript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
+--
+
+For continued
+
+The init and post statement are optional.
+--
+
+For is Go's "while"
+
+At that point you can drop the semicolons: C's while is spelled for in Go.
+----
+
+Forever
+
+If you omit the loop condition it loops forever, so an infinite loop is compactly expressed. func main() {
+	for {
+	}
+}
+
+----
+https://developer.chrome.com/native-client
+----
+
+Switch evaluation order
+
+Switch cases evaluate cases from top to bottom, stopping when a case succeeds.
+
+(For example,
+
+switch i {
+case 0:
+case f():
+}
+
+does not call f if i==0.)
+
+Note: Time in the Go playground always appears to start at 2009-11-10 23:00:00 UTC, a value whose significance is left as an exercise for the reader.
+
+Switch with no condition
+
+Switch without a condition is the same as switch true.
+
+This construct can be a clean way to write long if-then-else chains.
+----
+
+Defer
+
+A defer statement defers the execution of a function until the surrounding function returns.
+
+The deferred call's arguments are evaluated immediately, but the function call is not executed until the surrounding function returns.
+----
+
+Defer
+
+A defer statement defers the execution of a function until the surrounding function returns.
+
+The deferred call's arguments are evaluated immediately, but the function call is not executed until the surrounding function returns.
+----
+
+Slices
+
+An array has a fixed size. A slice, on the other hand, is a dynamically-sized, flexible view into the elements of an array. In practice, slices are much more common than arrays.
+
+The type []T is a slice with elements of type T.
+
+This expression creates a slice of the first five elements of the array a:
+
+a[0:5]
+
+--
+
+Slices are like references to arrays
+
+A slice does not store any data, it just describes a section of an underlying array.
+
+Changing the elements of a slice modifies the corresponding elements of its underlying array.
+
+Other slices that share the same underlying array will see those changes.
+--
+
+Slice length and capacity
+
+A slice has both a length and a capacity.
+
+The length of a slice is the number of elements it contains.
+
+The capacity of a slice is the number of elements in the underlying array, counting from the first element in the slice.
+
+The length and capacity of a slice s can be obtained using the expressions len(s) and cap(s).
+
+You can extend a slice's length by re-slicing it, provided it has sufficient capacity. Try changing one of the slice operations in the example program to extend it beyond its capacity and see what happens.
+--
+
+Creating a slice with make
+
+Slices can be created with the built-in make function; this is how you create dynamically-sized arrays.
+
+The make function allocates a zeroed array and returns a slice that refers to that array:
+
+a := make([]int, 5)  // len(a)=5
+
+To specify a capacity, pass a third argument to make:
+
+b := make([]int, 0, 5) // len(b)=0, cap(b)=5
+
+b = b[:cap(b)] // len(b)=5, cap(b)=5
+b = b[1:]      // len(b)=4, cap(b)=4
+
+--
+
+Slices of slices
+
+Slices can contain any type, including other slices.
+--
+
+Appending to a slice
+
+It is common to append new elements to a slice, and so Go provides a built-in append function. The documentation of the built-in package describes append.
+
+func append(s []T, vs ...T) []T
+
+The first parameter s of append is a slice of type T, and the rest are T values to append to the slice.
+
+The resulting value of append is a slice containing all the elements of the original slice plus the provided values.
+
+If the backing array of s is too small to fit all the given values a bigger array will be allocated. The returned slice will point to the newly allocated array.
+
+(To learn more about slices, read the Slices: usage and internals article.)
+https://blog.golang.org/go-slices-usage-and-internals
+--
+
