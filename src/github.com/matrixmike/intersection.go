@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"strings"
 )
+
 func swap(x, y string) (string, string) {
-	fmt.Println("1 ",x," ",y)
+	fmt.Println("1 ", x, " ", y)
 	return y, x
 }
 func main() {

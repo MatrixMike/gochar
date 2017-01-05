@@ -11,5 +11,5 @@ func main() {
 	v := Vertex{1, 2}
 	v.X = 4
 	fmt.Println(v.X)
-			fmt.Printf("Type: %T Value: %v\n", v,v)
+	fmt.Printf("Type: %T Value: %v\n", v, v)
 }
