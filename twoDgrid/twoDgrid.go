@@ -6,7 +6,7 @@ func main() {
 	
 		var d [3]string  
 		d[1] = "1234567890"
-				d[0] = "00000000"
+				d[0] = "abcdefghi"
 	//[]rune( d[1:2]) = "m"
 		[]rune(d[0])[3] = []rune(d[1])[1]
 			fmt.Println(string([]rune(d[1])[1]))
