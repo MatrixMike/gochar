@@ -27,7 +27,10 @@ func main() {
 	fmt.Println(strings.IndexAny("crwth", "aeiouy"))
 
 	fmt.Println(strings.IndexAny(a[3], a[2]), "K")
-	x = strings.IndexAny(a[3], a[2])
+	x = strings.IndexAny(a[3], a[2])		// this is the workhorse here 
+		fmt.Printf("Type: %T Value: %v\n", a, a)
+	fmt.Printf("len=%d cap=%d %v\n", len(a), cap(a), a)
+	fmt.Println()
 
 	fmt.Println(a[2:4])
 	fmt.Print("Index of intersecting character ", x, " ")
