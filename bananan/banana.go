@@ -7,6 +7,7 @@ import (
 
 func main() {
 	fmt.Println("ba" + strings.Repeat("na", 2))
+	fmt.Println("Galapagos")
 	fmt.Println(strings.Count("cheese", "e"))
 	fmt.Println(strings.Count("five", "")) // before & after each rune
 }
