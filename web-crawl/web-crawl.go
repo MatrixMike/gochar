@@ -63,7 +63,7 @@ var fetcher = fakeFetcher{
 		"Packages",
 		[]string{
 			"http://golang.org/",
-			"http://golang.org/cmd/",
+			"https://electroteach.com/",
 			"http://golang.org/pkg/fmt/",
 			"http://golang.org/pkg/os/",
 		},
