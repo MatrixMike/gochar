@@ -1,0 +1,7 @@
+date 13/12/2019
+build summary
+navigate to folder with go code - .go
+perform go build
+then execute the created file ./<executable>
+
+ 
